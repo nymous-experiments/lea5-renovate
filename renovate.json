@@ -2,7 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "configMigration": true,
   "extends": [
-    "config:best-practices"
+    "config:best-practices",
+    "customManagers:dockerfileVersions"
   ],
   "dependencyDashboard": true,
   "prHourlyLimit": 3,
